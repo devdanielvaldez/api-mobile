@@ -1,0 +1,23 @@
+{
+  "name": "rentalo-admin-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "sharetribe-flex-integration-sdk": "^1.10.1",
+    "ts-node": "^10.9.2"
+  }
+}
